@@ -12,7 +12,7 @@
             type="plain"
             size="mini"
             @click="selectDate('prev-month')">
-            {{ t('el.datepicker.prevMonth') }}
+            {{ '<<' }}
           </el-button>
           <el-button
             type="plain"
@@ -24,7 +24,7 @@
             type="plain"
             size="mini"
             @click="selectDate('next-month')">
-            {{ t('el.datepicker.nextMonth') }}
+            {{ '>>' }}
           </el-button>
         </el-button-group>
       </div>
